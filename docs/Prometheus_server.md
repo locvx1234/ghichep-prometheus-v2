@@ -8,6 +8,8 @@ Các node Exporter cài trên các máy cần monitor, tùy vào mục đích c�
 
 - [I. Cài đặt Prometheus server](#setup)
 - [II. Giải thích cấu hình](#config)
+- [III. Truy vấn](Querying.md)
+- [IV. Lưu trữ](Storage.md)
 
 <a name="setup"></a>
 ## I. Cài đặt Prometheus server
