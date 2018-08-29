@@ -79,9 +79,13 @@ REPLICATION 1 SHARD DURATION 1d DEFAULT;
 >> SHOW RETENTION POLICIES ON prometheus;
 ```
 
+Trên Prometheus server: 
+
 ```
 go get github.com/prometheus/prometheus/documentation/examples/remote_storage/remote_storage_adapter
 ```
+
+Running:
 
 ```
 INFLUXDB_PW=prom $GOPATH/bin/remote_storage_adapter \
@@ -116,3 +120,4 @@ systemctl restart prometheus
 
 Tại sao lại là InfluxDB, nó có những ưu điểm gì, tham khảo : 
 
+https://github.com/locvx1234/ghichep-prometheus-v2/blob/master/docs/Using%20Prometheus%20with%20InfluxDB%20for%20Metrics%20Storage%20-%20FileId%20-%20115469.pdf
