@@ -192,7 +192,7 @@ Xem thêm các hàm tại : https://prometheus.io/docs/prometheus/latest/queryin
 ### 2. Blackbox exporter
 
 
-#### Trên máy cần monitor: 
+#### Trên máy sử dụng để monitor: 
 
 Tạo user `blackbox_exporter`:
 
